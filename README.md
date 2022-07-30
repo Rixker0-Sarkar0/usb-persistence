@@ -13,4 +13,4 @@
 
 # .not meant to have to added with any further features
 
-# Under such contions, users discretion is advised, as author is not responsible for dammage caused or any mishap
+# Under such contions, users discretion is advised, as author is not responsible for dammage caused or any mishap as such
