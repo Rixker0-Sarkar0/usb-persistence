@@ -1,6 +1,6 @@
+#!/bin/bash
 echo enter name storage of drive
-read -p usb
-
+read usb
 fdisk $usb <<< $(printf "n\np\n\n\n\nw")
 mkfs.ext4 -L persistence ${usb}3
 mkdir -p /mnt/my_usb
