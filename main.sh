@@ -1,4 +1,5 @@
 #!/bin/bash
+fdisk -l
 echo enter name storage of drive
 read usb
 fdisk $usb <<< $(printf "n\np\n\n\n\nw")
