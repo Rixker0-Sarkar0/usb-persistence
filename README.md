@@ -1,7 +1,7 @@
 # mandatory to 
 .have root privillages (lame words, run the script as sudo)
 
-.the name of storage devive (just run, sudo fdidk -l and the one with same size of the drive, is usually that)
+.the name of storage device (just run, sudo fdisk -l and the one with same size of the drive, is usually that)
 
 # used for automation of:-
 .creating persistence on live kali media drives
