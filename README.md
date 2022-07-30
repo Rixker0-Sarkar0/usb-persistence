@@ -3,7 +3,7 @@
 
 .the name of storage devive (just run, sudo fdidk -l and the one with same size of the drive, is usually that)
 
-# Automation of:-
+# used for automation of:-
 .creating persistence on live kali media drives
 
 # this script is:-
@@ -13,4 +13,4 @@
 
 .not meant to have to added with any further features
 
-# under such contions, users discretion is advised, as author is not responsible for dammage caused or any mishap
+Under such contions, users discretion is advised, as author is not responsible for dammage caused or any mishap
