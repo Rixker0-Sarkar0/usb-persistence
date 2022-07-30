@@ -6,10 +6,10 @@
 # used for automation of:-
 .creating persistence on live kali media drives
 
-.creating custom live immages
+.creating custom live images
 
 # this script is:-
-# .not affliated is not to any extent, an alternative to official instructions on https://www.kali.org/docs/usb/ 
+# .not affliated is not to any extent, nor is an alternative to official instructions on https://www.kali.org/docs/usb/ 
 
 # .any debugging is not to expected or is planned in any foreseable future under any known circumstances
 
