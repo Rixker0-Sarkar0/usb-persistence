@@ -7,10 +7,10 @@
 .creating persistence on live kali media drives
 
 # this script is:-
-.not affliated is or to any extent, an alternative to official instructions on https://www.kali.org/docs/usb/ 
+# .not affliated is or to any extent, an alternative to official instructions on https://www.kali.org/docs/usb/ 
 
-.any debugging is not to expected or is planned in any foreseable future under any known circumstances
+# .any debugging is not to expected or is planned in any foreseable future under any known circumstances
 
-.not meant to have to added with any further features
+# .not meant to have to added with any further features
 
-Under such contions, users discretion is advised, as author is not responsible for dammage caused or any mishap
+# Under such contions, users discretion is advised, as author is not responsible for dammage caused or any mishap
