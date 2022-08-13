@@ -1,6 +1,6 @@
 #!/bin/bash
 fdisk -l
-echo enter name storage of drive
+echo enter name of drive
 read usb
 fdisk $usb <<< $(printf "n\np\n\n\n\nw")
 mkfs.ext4 -L persistence ${usb}3
