@@ -12,4 +12,4 @@
 
  .not meant to have to added with any further features
 
-# Under such condtions, users discretion is advised, as author is not responsible for dammage caused or any mishap as such
+ .Under such condtions, users discretion is advised, as author is not responsible for dammage caused or any mishap as such
