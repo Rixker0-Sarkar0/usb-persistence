@@ -3,9 +3,9 @@
 
 .the name of storage device (just run, sudo fdisk -l and the one with same size of the drive, is usually that)
 
+.an USB drive with image written into (get ISO on the drive)
 # used for automation of:-
 .creating persistence on live media drives
-
 # this script is:-
 
  .any debugging is not to expected or is planned in any foreseable future under any known circumstances
