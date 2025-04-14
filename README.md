@@ -1,15 +1,30 @@
-# mandatory to 
-.have root privillages (lame words, run the script as sudo)
+# USB Persistence Setup Script
 
-.the name of storage device (just run, sudo fdisk -l and the one with same size of the drive, is usually that)
+This script automates the creation of persistence on a USB drive containing a live Linux system.
 
-.an USB drive with image written into (get ISO on the drive)
-# used for automation of:-
-.creating persistence on live media drives
-# this script is:-
+## 🔧 Prerequisites
 
- .any debugging is not to expected or is planned in any foreseable future under any known circumstances
+- **Root privileges**: Run the script with `sudo`.
+- **USB drive identification**: Use `sudo fdisk -l` to identify the device (look for the one matching your drive's size).
+- **A prepared USB drive**: Ensure the USB drive has a live ISO already written to it.
 
- .not meant to have to added with any further features
+## 🚀 What the Script Does
 
- .Under such condtions, users discretion is advised, as author is not responsible for damage caused or any mishap as such
+1. **Partitioning**:  
+   - Creates a **512MB** partition for persistence.
+   - Allocates the remaining space for ISO storage.
+
+2. **Formatting**:  
+   - Formats both partitions as `ext4`.
+   - Labels the partitions as `persistence` (for persistence) and `iso` (for the ISO storage).
+
+3. **Setup Persistence**:  
+   - Mounts the persistence partition.
+   - Creates a `persistence.conf` file with the configuration line `/ union` to enable persistence.
+   - Unmounts the partition after setup.
+
+## ⚠️ Disclaimer
+
+- This script is **minimal** and **unmaintained**.
+- No further debugging, updates, or features are planned.
+- **Use at your own risk**: The author is not responsible for any data loss or hardware issues.
